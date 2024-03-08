@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02b7d4e5-b029-47b8-a308-4876b73446d2" name="Changes" comment="new code">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormRemoteTestsWithJenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormRemoteTestsWithJenkins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CheckResultComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PageObjectsPracticeFormTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormRemoteTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormRemoteTestsWithJenkins.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +34,12 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -37,12 +53,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AleksShakhmatov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AleksShakhmatov&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -51,33 +67,58 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dPqJKv3I36taWAiJLOge3tMpxg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ashakhmatov.IBS/qa_guru/HW13_Jenkins/src",
-    "onboarding.tips.debug.path": "C:/Users/ashakhmatov.IBS/qa_guru/HW13_Jenkins/src/main/java/ru/coluchy/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ashakhmatov.IBS/qa_guru/HW13_Jenkins&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ashakhmatov.IBS/qa_guru/HW13_Jenkins/src/main/java/ru/coluchy/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ashakhmatov.IBS\qa_guru\HW13_Jenkins" />
       <recent name="C:\Users\ashakhmatov.IBS\qa_guru\HW13_Jenkins\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PracticeFormRemoteTestsWithJenkins">
+  <component name="RunManager" selected="Gradle.PracticeFormRemoteTests">
+    <configuration name="PracticeFormRemoteTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":demoqa_test" />
+            <option value="--tests" />
+            <option value="&quot;tests.PracticeFormRemoteTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="PracticeFormRemoteTestsWithJenkins" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,7 +167,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PracticeFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PracticeFormRemoteTests.successfulRegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -139,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.PracticeFormTests&quot;" />
+            <option value="&quot;tests.PracticeFormRemoteTests.successfulRegistrationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,37 +215,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PracticeFormTests.successfulRegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":demoqa_test" />
-            <option value="--tests" />
-            <option value="&quot;tests.PracticeFormTests.successfulRegistrationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PracticeFormRemoteTests" />
+        <item itemvalue="Gradle.PracticeFormRemoteTests.successfulRegistrationTest" />
         <item itemvalue="Gradle.PracticeFormRemoteTestsWithJenkins" />
         <item itemvalue="Gradle.PracticeFormRemoteTestsWithJenkins.successfulRegistrationTest (2)" />
         <item itemvalue="Gradle.PracticeFormTests.successfulRegistrationTest (1)" />
-        <item itemvalue="Gradle.PracticeFormTests" />
-        <item itemvalue="Gradle.PracticeFormTests.successfulRegistrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709926765964</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new code">
+      <option name="closed" value="true" />
+      <created>1709927454186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709927454186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
