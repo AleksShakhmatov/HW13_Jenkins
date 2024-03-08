@@ -23,8 +23,8 @@ public class PracticeFormRemoteTests {
     static void beforeAll() {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
-        Configuration.pageLoadStrategy = "eager";
-        //Configuration.timeout = 100000;
+        //Configuration.pageLoadStrategy = "eager";
+        Configuration.timeout = 100000;
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -52,6 +52,7 @@ public class PracticeFormRemoteTests {
         step("Open form", () -> {
         open("/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
+        $(".fc-button-label").click();
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
         });
