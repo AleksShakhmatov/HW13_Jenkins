@@ -1,6 +1,7 @@
 package tests;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -52,7 +53,11 @@ public class PracticeFormRemoteTests {
         step("Open form", () -> {
         open("/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
-        $(".fc-button-label").click();
+            SelenideElement bannerRoot = $(".fc-consent-root");
+            if (bannerRoot.isDisplayed()) {
+                bannerRoot.$(byText("Consent")).click();
+            }
+        //$(".fc-button-label").click();
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
         });
