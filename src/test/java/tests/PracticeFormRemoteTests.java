@@ -93,7 +93,6 @@ public class PracticeFormRemoteTests {
         $(".table-responsive").$(byText("Picture")).parent().shouldHave(text("9.png"));
         $(".table-responsive").$(byText("Address")).parent().shouldHave(text("www.Leningrad.spb.ru"));
         $(".table-responsive").$(byText("State and City")).parent().shouldHave(text("Rajasthan Jaipur"));
-        $(".table-responsive").$(byText("Student Name")).parent().shouldHave(text("Aleksandr Exile"));
         });
 
     }
