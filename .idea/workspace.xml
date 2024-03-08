@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02b7d4e5-b029-47b8-a308-4876b73446d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormRemoteTestsWithJenkins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/9.png" afterDir="false" />
+    <list default="true" id="02b7d4e5-b029-47b8-a308-4876b73446d2" name="Changes" comment="new code">
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormRemoteTestsWithJenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormRemoteTestsWithJenkins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +37,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AleksShakhmatov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f89fce55-0469-49b2-a5aa-7415174eecb1" />
+        <option name="url" value="git@github.com:AleksShakhmatov/HW13_Jenkins.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
@@ -63,7 +64,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/ashakhmatov.IBS/qa_guru/HW13_Jenkins/src",
     "onboarding.tips.debug.path": "C:/Users/ashakhmatov.IBS/qa_guru/HW13_Jenkins/src/main/java/ru/coluchy/Main.java"
   }
@@ -216,7 +217,20 @@
       <option name="presentableId" value="Default" />
       <updated>1709919989087</updated>
     </task>
+    <task id="LOCAL-00001" summary="new code">
+      <option name="closed" value="true" />
+      <created>1709926765964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709926765964</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new code" />
+    <option name="LAST_COMMIT_MESSAGE" value="new code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
